@@ -1,0 +1,352 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.green-btn{
+    background: #83a7a5;
+    margin-left: 50px;
+    padding: 9px 34px;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+/*header css start*/
+header{
+    background: url('assets/images/shadow.png') no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    padding: 30px 0;
+}
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 195px;
+    background-image: linear-gradient(180deg,
+    #00000073, #807c7c0d);
+}
+.navbar-brand{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+.top-phone{
+    margin-left: 12px;
+    border: 0 solid;
+    border: 0px solid #ffffff3b; 
+    border-left-width: 0px;
+    border-left-width: 2px;
+    padding-left: 22px;
+    margin-top: 3px;
+}
+.top-phone i{
+    color:#ffffff63;
+    margin-right: 15px;
+}
+.top-phone a{
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #ffffff7a;
+}
+.top-phone a:hover{
+    text-decoration: none;
+}
+.nav-link{
+    color: rgb(255, 255, 255, .7);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.active .nav-link{
+    opacity: rgb(255, 255, 255, 1);
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255, 1);
+    
+}
+.cta_btn{
+    background: rgb(255, 255, 255, .5);
+    padding: 10px 62px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.navbar{
+    border-bottom: 1px solid #ffffff3d;
+    padding-bottom: 30px;
+    
+}
+/*header css end*/
+#baner{
+    background-repeat: no-repeat;
+    position: top center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    
+}
+#baner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2d6e70;
+    opacity: .9;
+}
+#baner h1{
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+}
+#baner p{
+    width: 469px;
+    color:#fff;
+    font-size: 15px;
+}
+#baner .green-btn{
+    background: #6fb048;
+    padding: 9px 34px;
+    color: #fff;
+    border-radius: 3px;
+}
+.content h2{
+    color: #0f5f5c;
+    text-align: center;
+    margin-top: 95px;
+    font-family: 'Roboto', sans-serif
+}
+.content p{
+    color: #83a7a5;
+    text-indent: 3px;
+    text-align: center;
+    font-size: 14px;
+}
+.content .colum_1{
+    text-align-last: center;
+}
+.content h4{
+    color: rgb(5, 94, 91,1);
+    text-align: center; 
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+}
+.div{
+    position: relative;
+width: 50px;
+margin: 25px 240px;
+height: 70px;
+}
+.div::before{
+    content: "";
+background:#f2f2f2;
+position: absolute;
+width: 2px;
+height: 90px;
+top: -24px;
+left: 335px;
+}
+.div::after{
+    content: "";
+    background:#f2f2f2;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: 65px;
+    left: 286px;
+}
+.content h5{
+    color: rgb(15, 97, 94,1);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    text-align-last: left;
+}
+
+.container-fluid{
+    background: url('assets/images/hand.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.p-left{
+    text-align: start;
+font-size: 12px;
+font-weight: 300;
+margin-top: 135px;
+margin-left: 105px;
+}
+.box{
+    width: 250px;
+    height: 358px;
+    border: 1px solid #ddd;
+}
+.pricing h4{
+    margin: 25px;
+    text-align: center;
+    
+    font-size: 15px;
+    font-weight: 600;
+    color: #6fb048;
+}
+.pricing h1{
+    
+    text-align: center;
+    margin-bottom: -9px;
+    font-size: 64px;
+    color: #0f5f5c;
+}
+.pricing p{
+    text-align: center;
+    font-size: 13px;
+    color: #83a7a5;
+}
+.pricing .green-btn{
+    background: #83a7a5;
+    margin-left: 50px;
+    padding: 9px 34px;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.pricing .green-btn:hover{
+    background: #6fb048;
+    margin-left: 50px;
+    padding: 9px 34px;
+    color: #fff;
+    border-radius: 3px;
+}
+.active .green-btn{
+    background: #6fb048;
+}
+.support{
+    margin-top: 59px;
+    margin-bottom: 99px;
+
+}
+.support img{
+    margin: 0 auto;
+    margin-bottom: 0px;
+top: 0;
+left: 0;
+position: absolute;
+right: 0;
+margin-bottom: 30px;
+display: block;
+   
+}
+.support h2{
+    color: #6fb048;
+    text-align: center;
+    margin-top: 59px;
+    font-size: 32px;
+}
+.support p{
+    text-align: center;
+    color: #0f5f5c;
+    font-size: 15px;
+    padding: 0 285px;
+}
+.support h6{
+    text-align: center;
+    color: #0f5f5c;
+    font-size: 18px;
+}
+footer{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+    width: 100%;
+    height: 199px;
+}
+footer .download h3{
+    color: #799a96;
+    margin-top: 82px;
+    margin-bottom: 0px;
+}
+footer .download p{
+    font-size: 13px;
+    color: #83a7a5;
+}
+footer .download-btn{
+    margin-top: 30px;
+    padding: 66px 0;
+}
+footer h4{
+    color: #0f5f5c;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+footer h5{
+    color: #0f5f5c;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+footer h6{
+    color: #0f5f5c;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+footer p{
+    color: #83a7a5;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+footer .email{
+    margin: 17px 0;
+    padding: 8px;
+    background:#eef1ec;
+    border: none;
+    border-radius: 5px;
+    
+}
+footer .email[type]{
+    color: #83a7a5;
+    font-size: 15px;
+    font-weight: 500;
+}
+.email_submmit{
+    position: relative;
+}
+.email_submmit input[type="submit"]{
+    position: absolute;
+    background: url(assets/images/submit.jpg);
+    text-indent: -999999px;
+    top: 26px;
+    right: 66px;
+    width: 18px;
+    height: 18px;
+}
+.email_submmit::after{
+    content: "";
+    position: absolute;
+    width: 1060px;
+    
+    border: 1px solid
+    rgb(238, 241, 236,0.52);
+    top: 114px;
+    left: -858px;
+}
+
+
+
+
